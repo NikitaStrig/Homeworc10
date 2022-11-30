@@ -20,10 +20,10 @@ public class Main {
                 min = arr[i];
             }
         }
-        for (int i = reverseFullName.length; i <= reverseFullName.length; i--) {
-            System.out.println(reverseFullName[i]);
+        for (int i = reverseFullName.length -1; i <= reverseFullName.length && i != -1; i--) {
+            System.out.print(reverseFullName[i]);
         }
-
+        System.out.println(" ");
         System.out.println("Сумма трат за месяц составила " + total + " рублей");
         System.out.println("Минимальная сумма трат за день составила "  + min + " рублей." +
                 " Максимальная сумма трат за день составила " + max + " рублей");
