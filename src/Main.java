@@ -1,6 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Задание");
         int[] arr2 = {11, 8, 12, 9};
         int[] arr = generateRandomArray();
         int total = 0;
